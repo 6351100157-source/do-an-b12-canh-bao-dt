@@ -495,7 +495,7 @@ with tab1:
     )
 
     with st.expander("🔧 Thông tin kiểm tra mô hình số (đưa vào mục 4.4)"):
-        st.write(pd.DataFrame({
+        st.dataframe(pd.DataFrame({
             "Thông số": ["Số nút lưới", "Bước lưới Δx (m)",
                          "Bước thời gian Δt (giờ)", "Số Fourier Fo",
                          "Số Biot mặt trên", "Số Biot mặt dưới",
